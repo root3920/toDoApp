@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    background-color: #eeccbb;
+}
+
+.App{
+    width: 100%;
+}
+
+
+.App__grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 92vh;
+}
+
+.App__grid__container{
+    width: 100%;
+    padding: 20px;
+    font-size: 2.2vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.tarea{
+    display: flex;
+    padding: 60px 0 ;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 6px 0px;
+    overflow-y: auto;
+}

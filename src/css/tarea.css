@@ -1,0 +1,48 @@
+.trash-can:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.tarea-completada{
+    background: rgb(225, 8, 8);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0 15px;
+    font-size: 16px;
+    min-height: 60px ;
+    cursor: pointer;
+    text-decoration: line-through;
+    position: static;
+}
+
+.task{
+background: white;
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 5px;
+margin: 10px;
+padding: 0 15px;
+font-size: 16px;
+min-height: 60px ;
+cursor: pointer;
+position: static;
+}
+
+.task__container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
